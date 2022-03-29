@@ -115,6 +115,38 @@
 // todoSection.classList.add('bg-dark');
 // console.log(todoSection.classList);
 
+// const todo_section = document.querySelector(".todo-section");
+// todo_section.classList.add("bg-dark");
+// console.log(todo_section);
+
+// console.log(todo_section.classList.contains("container"));
 
 
+// const todolist = document.querySelector(".todo-list");
+// // console.log(todolist.innerHTML);
 
+// // todolist.innerHTML ="<li>new todo</li>";
+
+// todolist.innerHTML = todolist.innerHTML + "<li>new todo</li>";
+
+
+//  const newTodoItem = document.createElement("li");
+//  const newTodoItemtext = document.createTextNode("new todo item");
+//  newTodoItem.append(newTodoItemtext);
+//  const todolist = document.querySelector(".todo-list");
+
+//  todolist.append(newTodoItem);
+
+// const newTodoItem = document.createElement("li");
+// newTodoItem.textContent = "newtodo";
+// const todolist = document.querySelector(".todo-list");
+
+//  todolist.append(newTodoItem);
+
+
+// const ul = document.querySelector(".todo-list");
+// const li = document.createElement("li");
+// li.textContent = 'newtodo';
+//  const li2 =li.cloneNode(true);
+// ul.append(li);
+// ul.prepend(li2);

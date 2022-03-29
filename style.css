@@ -65,7 +65,17 @@ a{
     text-align: center;
 
 }
-
+.todo-list{
+    text-align: left;
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+.todo-list li{
+    padding: .7rem;
+    background-color: grey;
+    color: cyan;
+    margin-top: 1rem;
+}
 
 .bg-dark{
     background-color: black;
@@ -140,4 +150,5 @@ padding: 1rem;
 
 .form-group{
     margin-top: 1rem;
+    
 }
