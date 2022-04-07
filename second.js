@@ -150,3 +150,32 @@
 //  const li2 =li.cloneNode(true);
 // ul.append(li);
 // ul.prepend(li2);
+
+
+// const items = document.querySelectorAll(".todo-list li");
+
+// const ul = document.querySelector(".todo-list");
+// const items = ul.getElementsByTagName("li");
+// const sixthElement = document.createElement("li");
+// sixthElement.textContent = "item 6";
+// ul.append(sixthElement);
+// console.log(items);
+
+
+// const btn = document.querySelector(".btn-headline");
+// btn.addEventListener("click",function(){
+//     console.log("you clicked me");
+// })
+ 
+
+// const allbtn = document.querySelectorAll(".buttons button");
+// for(let btn of allbtn){
+//     btn.addEventListener("click",function(e){
+//     console.log(e.target);
+
+// });
+// }
+
+
+
+
